@@ -24,6 +24,8 @@ class TestStudentLists(TestCase):
 
     def test_can_create_class_with_positive_number_of_students(self):
         test_class = ClassList(1) # Should this be left here or not?
+        # I think this code could be left out because if a class has students
+        # then it will always be a positive number already.
 
 
     def test_add_student_check_student_in_list(self):
